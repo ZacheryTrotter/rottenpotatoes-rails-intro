@@ -62,6 +62,7 @@ class MoviesController < ApplicationController
      def all_ratings  
         ratings_hash = {}
         @all_ratings.each { |val| ratings_hash[val] = '1' }
+        ratings_hash
      end
 
 end
